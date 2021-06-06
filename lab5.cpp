@@ -11,9 +11,9 @@ private:
 
 public:
     CircularBuffer(){};
-//+1 ячейка, хотя бы 1 между Элдер и Янгер
+//+1 ГїГ·ГҐГ©ГЄГ , ГµГ®ГІГї ГЎГ» 1 Г¬ГҐГ¦Г¤Гі ГќГ«Г¤ГҐГ° ГЁ ГџГ­ГЈГҐГ°
     explicit CircularBuffer(int size):  arr(new Q[size]), first(&arr[0]),  last(&arr[size - 1]), younger(&arr[0]), elder(&arr[0]), capacity(size){}
-//Конструктор
+//ГЉГ®Г­Г±ГІГ°ГіГЄГІГ®Г°
     void push_front(const Q &value) {
         *younger = value;
         if (first == younger)
@@ -29,7 +29,7 @@ public:
         else
             elder++;
     }
-//Деструктор
+//Г„ГҐГ±ГІГ°ГіГЄГІГ®Г°
     void pop_front() {
         *younger = 0;
         if (younger == last)
