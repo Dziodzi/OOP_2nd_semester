@@ -11,9 +11,8 @@ private:
 
 public:
     CircularBuffer(){};
-//+1 ÿ÷åéêà, õîòÿ áû 1 ìåæäó Ýëäåð è ßíãåð
     explicit CircularBuffer(int size):  arr(new Q[size]), first(&arr[0]),  last(&arr[size - 1]), younger(&arr[0]), elder(&arr[0]), capacity(size){}
-//Êîíñòðóêòîð
+
     void push_front(const Q &value) {
         *younger = value;
         if (first == younger)
@@ -29,7 +28,7 @@ public:
         else
             elder++;
     }
-//Äåñòðóêòîð
+
     void pop_front() {
         *younger = 0;
         if (younger == last)
