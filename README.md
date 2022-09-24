@@ -1,2 +1,3 @@
-# My learning tasks on OOP for the second semester. 
-All of the works are complited in C++
+# OOP_2_semester
+
+### This repository presents my implementations of academic assignments from ITMO University for the 2nd semester
