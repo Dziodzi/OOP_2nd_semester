@@ -1,3 +1,20 @@
-# OOP_2_semester
+# Лабораторные работы по дисциплине "Объектно-ориентированное программирование"
 
-### This repository presents my implementations of academic assignments from ITMO University for the 2nd semester
+---
+
+### Лабораторные работы по дисциплине "Объектно-ориентированное программирование"
+
+- Лабораторные работы выполнены мной в весеннем семестре 2021 года;
+- Используемый язык программирования - C++.
+
+---
+Условия работ:
+- [1. ООП. Классы. Наследование.](https://github.com/Dziodzi)
+- [2. Классы. Перегрузка операторов.](https://github.com/Dziodzi)
+- [3. Анализ данных.](https://github.com/Dziodzi)
+- [4. STL. Алгоритмы. Итераторы.](https://github.com/Dziodzi)
+- [5. STL. Контейнеры.](https://github.com/Dziodzi)
+- [6. Кубик Рубика.](https://github.com/Dziodzi)
+---
+
+Автор проекта: Григорий "Dziodzi" Шатинский
